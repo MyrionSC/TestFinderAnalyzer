@@ -1,16 +1,16 @@
-# Roslyn Analyzer Template
+# TestFinderAnalyzer
 
-This repository provides a pure boilerplate template to make it easier to create a new analyzer project.
-
-The analyzer project contained in this repository is based on the [project template in the Roslyn SDK](https://github.com/dotnet/roslyn-sdk/tree/main/src/VisualStudio.Roslyn.SDK/Roslyn.SDK/ProjectTemplates/CSharp/Diagnostic).
-
-The workflow contained in this repository is inspired by [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template).
+[![Build](https://github.com/MyrionSC/TestFinderAnalyzer/workflows/Build/badge.svg)](../../actions)
+[![NuGet version](https://badge.fury.io/nu/TestFinderAnalyzer.svg)](https://www.nuget.org/packages/TestFinderAnalyzer/)
 
 
-## Getting started
+## Template ToDo list
+- [x] Create a new [Roslyn Analyzer Template][template] project.
+- [ ] Implement diagnostic analyzer
+- [ ] Publish The [NuGet Gallery](https://www.nuget.org/)
 
-All you have to do is click the <kbd>Use this template</kbd> button.
 
-After using the template to create your blank project, the Template Cleanup workflow will be triggered to override or remove any template-specific configurations, such as the project name, current changelog, etc.
+---
+Analyzer based on the [Roslyn Analyzer Template][template].
 
-For the last step, you have to manually modify the configuration in the YOUR_ANALYZER.Package/YOUR_ANALYZER.Package.csproj
+[template]: https://github.com/nowsprinting/RoslynAnalyzerTemplate
